@@ -36,7 +36,7 @@ Software: Python 3.7.6 , Jupyter notebook, Pandas library, SQL, pgAdmin4
       *  Merge wiki_movies_df and kaggle_data to movies_df dataframe , drop unnecessary column and fill missing data in the new dataframe
       *  Transform and merge ratings dataframe with movies_df and creating a new  movies_with_ratings_df dataframe 
 7. Create the Movie Database
- * The function will be named Read_kaggle_wiki_rating_data()
+ * The function will be named Read_Transfer_Data()
    * It will read two csv data files and one json file : movies_metadata.csv,ratings.csv,wikipedia-movies.json
    * In this function :
       *  it will call function clean_movie() that combines alternative languages columns to one columns alt_titles and change some column names
